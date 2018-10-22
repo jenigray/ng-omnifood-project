@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/scss/grid.scss';
+@import '../node_modules/normalize-scss/sass/normalize/import-now';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0.5px solid darkgray;
+}
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./assets/img/hero.jpg") center;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto; // center inside the container
+}
