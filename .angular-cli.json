@@ -17,9 +17,10 @@
       "test": "test.ts",
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
-      "prefix": "app",
+      "prefix": "app-omnifood",
       "styles": [
-        "styles.scss"
+        "styles.scss",
+        "./assets/scss/grid.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
